@@ -80,9 +80,9 @@
             bindings = <
 &trans      &kp N1           &kp N2           &kp N3             &kp N4               &kp N5    &mmv MOVE_UP     &kp N6  &kp N7                &kp N8              &kp N9            &kp N0                    &trans
 &kp ESCAPE  &kp Q            &kp W            &kp E              &kp R                &kp T     &mmv MOVE_DOWN   &kp Y   &kp U                 &kp I               &kp O             &kp P                     &kp BACKSPACE
-&kp TAB     &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G     &mmv MOVE_LEFT   &kp H   &hmr RIGHT_CONTROL J  &hmr K RIGHT_SHIFT  &hmr RIGHT_ALT L  &hmr RIGHT_GUI SEMICOLON  &kp ENTER
+&kp TAB     &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G     &mmv MOVE_LEFT   &kp H   &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K  &hmr RIGHT_ALT L  &hmr RIGHT_GUI SEMICOLON  &kp ENTER
 &kp CAPS    &kp Z            &kp X            &kp C              &kp V                &kp B     &mmv MOVE_RIGHT  &kp N   &kp M                 &kp COMMA           &kp DOT           &trans                    &trans
-&kp C_MUTE  &trans           &trans           &trans             &lt 1 SPACE          &mo 1     &mkp LCLK        &mo 2   &lt 2 ENTER           &trans              &trans            &trans
+&kp C_MUTE  &trans           &trans           &trans             &lt 1 SPACE          &mo 2     &mkp LCLK        &trans  &lt 2 ENTER           &trans              &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
