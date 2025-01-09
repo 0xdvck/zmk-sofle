@@ -120,7 +120,7 @@
         layer_1 {
             bindings = <
 &kp F1  &kp F2        &kp F3                &kp F4                &kp F5              &kp F6    &mmv MOVE_UP     &kp F7        &kp F8          &kp F9        &kp F10    &kp F11  &kp F12
-&trans  &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3          &kp NUMBER_4        &kp N5    &mmv MOVE_DOWN   &kp NUMBER_6  &kp N7          &kp N8        &kp N9     &kp N0   &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3          &kp NUMBER_4        &kp N5    &mmv MOVE_DOWN   &kp NUMBER_6  &kp N7          &kp N8        &kp N9     &kp N0   &kp BACKSPACE
 &trans  &trans        &hml LEFT_ALT DELETE  &hml LEFT_SHIFT HOME  &hml LCTRL PAGE_UP  &trans    &mmv MOVE_LEFT   &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans   &trans
 &trans  &trans        &trans                &kp END               &kp PAGE_DOWN       &trans    &mmv MOVE_RIGHT  &trans        &trans          &trans        &trans     &trans   &trans
 &trans  &trans        &trans                &trans                &trans              &trans    &mkp LCLK        &trans        &trans          &trans        &trans     &trans
