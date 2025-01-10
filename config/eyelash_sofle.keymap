@@ -119,11 +119,11 @@
 
         layer_1 {
             bindings = <
-&kp F1  &kp F2        &kp F3           &kp F4                &kp F5              &kp F6    &mmv MOVE_UP     &kp F7        &kp F8          &kp F9        &kp F10    &kp F11  &kp F12
-&none   &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3          &kp NUMBER_4        &kp N5    &mmv MOVE_DOWN   &kp NUMBER_6  &kp N7          &kp N8        &kp N9     &kp N0   &kp BACKSPACE
-&none   &kp DELETE    &khl LEFT_ALT 0  &hml LEFT_SHIFT HOME  &hml LCTRL PAGE_UP  &none     &mmv MOVE_LEFT   &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none    &none
-&none   &none         &none            &kp END               &kp PAGE_DOWN       &none     &mmv MOVE_RIGHT  &none         &none           &none         &none      &none    &none
-&none   &none         &none            &none                 &none               &none     &mkp LCLK        &none         &none           &none         &none      &none
+&kp F1  &kp F2        &kp F3           &kp F4             &kp F5        &kp F6    &mmv MOVE_UP     &kp F7        &kp F8          &kp F9        &kp F10    &kp F11  &kp F12
+&none   &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3       &kp NUMBER_4  &kp N5    &mmv MOVE_DOWN   &kp NUMBER_6  &kp N7          &kp N8        &kp N9     &kp N0   &kp BACKSPACE
+&none   &kp DELETE    &khl LEFT_ALT 0  &khl LEFT_SHIFT 0  &khl LCTRL 0  &none     &mmv MOVE_LEFT   &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none    &none
+&none   &none         &none            &none              &none         &none     &mmv MOVE_RIGHT  &kp HOME      &kp PAGE_DOWN   &kp PG_DN     &kp END    &none    &none
+&none   &none         &none            &none              &none         &none     &mkp LCLK        &none         &none           &none         &none      &none
             >;
 
             display-name = "layer1";
@@ -131,11 +131,11 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &none     &none     &none        &mmv MOVE_UP     &none      &none      &none                   &none      &none       &none
-&bt BT_CLR_ALL  &kp EXCL      &kp AT        &kp HASH  &kp DLLR  &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp STAR                &kp GRAVE  &kp TILDE   &none
-&none           &kp DQT       &kp LBKT      &kp LBRC  &kp LPAR  &kp COMMA    &mmv MOVE_LEFT   &kp FSLH   &kp MINUS  &hmr RIGHT_SHIFT EQUAL  &kp COLON  &kp SEMI    &none
-&none           &kp SQT       &kp RBKT      &kp RBRC  &kp RPAR  &kp DOT      &mmv MOVE_RIGHT  &kp BSLH   &kp UNDER  &kp PLUS                &kp PIPE   &kp QMARK   &none
-&none           &sys_reset    &soft_off     &none     &none     &none        &mkp LCLK        &none      &none      &none                   &soft_off  &sys_reset
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1        &none                       &none            &none        &mmv MOVE_UP     &none      &none             &none                   &none                 &none       &none
+&bt BT_CLR_ALL  &kp EXCL      &kp AT              &kp HASH                    &kp DLLR         &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS          &kp STAR                &kp GRAVE             &kp TILDE   &none
+&none           &kp DQT       &hml LEFT_ALT LBKT  &hml LEFT_SHIFT LEFT_BRACE  &hml LCTRL LPAR  &kp COMMA    &mmv MOVE_LEFT   &kp FSLH   &hmr RCTRL MINUS  &hmr RIGHT_SHIFT EQUAL  &hmr RIGHT_ALT COLON  &kp SEMI    &none
+&none           &kp SQT       &kp RBKT            &kp RBRC                    &kp RPAR         &kp DOT      &mmv MOVE_RIGHT  &kp BSLH   &kp UNDER         &kp PLUS                &kp PIPE              &kp QMARK   &none
+&none           &sys_reset    &soft_off           &none                       &none            &none        &mkp LCLK        &none      &none             &none                   &soft_off             &sys_reset
             >;
         };
     };
