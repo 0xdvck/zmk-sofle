@@ -131,11 +131,11 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &none        &none     &none        &mmv MOVE_UP     &none      &none      &none                   &none      &none       &none
-&bt BT_CLR_ALL  &kp EXCL      &kp AT        &kp HASH     &kp DLLR  &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp STAR                &kp GRAVE  &kp TILDE   &none
-&none           &kp DQT       &kp LBKT      &kp LBRC     &kp LPAR  &kp COMMA    &mmv MOVE_LEFT   &kp FSLH   &kp MINUS  &hmr RIGHT_SHIFT EQUAL  &kp COLON  &kp SEMI    &none
-&none           &kp SQT       &kp RBKT      &kp RBRC     &kp RPAR  &kp DOT      &mmv MOVE_RIGHT  &kp BSLH   &kp UNDER  &kp PLUS                &kp PIPE   &kp QMARK   &none
-&none           &sys_reset    &soft_off     &bootloader  &none     &none        &mkp LCLK        &none      &none      &bootloader             &soft_off  &sys_reset
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &none     &none     &none        &mmv MOVE_UP     &none      &none      &none                   &none      &none       &none
+&bt BT_CLR_ALL  &kp EXCL      &kp AT        &kp HASH  &kp DLLR  &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp STAR                &kp GRAVE  &kp TILDE   &none
+&none           &kp DQT       &kp LBKT      &kp LBRC  &kp LPAR  &kp COMMA    &mmv MOVE_LEFT   &kp FSLH   &kp MINUS  &hmr RIGHT_SHIFT EQUAL  &kp COLON  &kp SEMI    &none
+&none           &kp SQT       &kp RBKT      &kp RBRC  &kp RPAR  &kp DOT      &mmv MOVE_RIGHT  &kp BSLH   &kp UNDER  &kp PLUS                &kp PIPE   &kp QMARK   &none
+&none           &sys_reset    &soft_off     &none     &none     &none        &mkp LCLK        &none      &none      &none                   &soft_off  &sys_reset
             >;
         };
     };
